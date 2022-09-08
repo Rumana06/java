@@ -1,6 +1,8 @@
 //write a java code input Student id,Sname,attendence and print details using "Scanner class"
 
+
 import java.util.Scanner;
+
 class Student
 {
 public static void main(String[] args)
@@ -20,8 +22,8 @@ std_id=sc.nextInt();
 System.out.println("enter student attendence:");
 std_attend=sc.nextDouble();
 
-System.out.println("Student name : "+std_name);	
-System.out.println("Student ID : "+std_id);	         
-System.out.println("Student attendence : "+std_attend);	
+System.out.println("Student name : "+std_name);	// Printing Value
+System.out.println("Student ID : "+std_id);	         // Printing Value
+System.out.println("Student attendence : "+std_attend);	// Printing Value
 }
 }
